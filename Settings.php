@@ -162,7 +162,7 @@ $SITE['WXSIMscript'] 	= 'plaintext-parser.php'; // script for decoding plaintext
 $SITE['defaultlang']	= 'en';   // 'en' for English (WXSIM plaintext-parser.php)
 
 # fcsturlNWS is the point-printable forecast URL from http://www.weather.gov/ (used by advforecast2.php)
-$SITE['fcsturlNWS']		= 'http://forecast.weather.gov/MapClick.php?CityName=Saratoga&state=CA&site=MTR&textField1=37.2639&textField2=-122.022&e=1&TextType=2';
+$SITE['fcsturlNWS']		= 'https://forecast.weather.gov/MapClick.php?lat=41.8843&lon=-87.6324#.Wyw0Ey2ZPOQ';
 $SITE['fcsticonsdir'] = './forecast/images/'; // NOAA-style icons for NWS, WU, WXSIM forecast scripts
 $SITE['fcsticonstype']= '.jpg'; // default type='.jpg' -- use '.gif' for animated icons from http://www.meteotreviglio.com/
 // in the following section, enable settings for ONE primary forecast organization
@@ -174,7 +174,7 @@ $SITE['fcstorg']		= 'NWS';    // set to 'NWS' for NOAA NWS
 
 $SITE['NWSforecasts']   = array( // for the advforecast2.php V3.xx version script
 // use "Zone|Location|Point-printableURL",  as entries .. first one will be the default forecast.
-"CAZ006|San Francisco|http://forecast.weather.gov/MapClick.php?CityName=San+Francisco&state=CA&site=MTR&textField1=37.775&textField2=-122.418&e=0&TextType=2"
+"ILZ014|Chicago|https://forecast.weather.gov/MapClick.php?lat=41.8843&lon=-87.6324#.Wyw0Ey2ZPOQ"
 );
 
 // Uncomment the two lines below to use WXSIM as the ONLY forecast script to use
@@ -192,9 +192,8 @@ $SITE['hurlURL']		= "wxadvisory.php"; // page to launch for details on NOAA advi
 //    cron to provide updates.
 // Note: additional/optional nws-alerts configuration is in nws-alerts-config.php file
 $SITE['NWSalertsCodes'] = array(
-  "Santa Clara Valley|CAZ513|CAC085",
+  "Chicago|ILZ014|ILZ014",
 //  "Santa Cruz Mtns|CAZ512|CAC081|CAC085|CAC087",
-  "Santa Cruz|CAZ529|CAC087",
 //  "Monterey|CAZ530|CAC053",
 //  "South/East Bay|CAZ508|CAC081",
 //  "San Mateo Coast|CAZ509|CAC081",

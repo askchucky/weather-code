@@ -41,11 +41,11 @@
 //
 // settings ----------------------------- */
 $imagesDir = './ajax-images/';  // directory for ajax-images+radar buttons with trailing slash
-$RDR  = 'MUX';  // last 3 characters of NOAA Radar Site Name
-$Lat  = '37.27153397';    //North=positive, South=negative decimal degrees
-$Long = '-122.02274323';  //East=positive, West=negative decimal degrees
-$City = 'Saratoga';  // Name of city
-$WUregion = 'sw';    // WeatherUnderground regional map group name
+$RDR  = 'LOT';  // last 3 characters of NOAA Radar Site Name
+$Lat  = '41.89306';    //North=positive, South=negative decimal degrees
+$Long = '-87.65010899999999';  //East=positive, West=negative decimal degrees
+$City = 'Chicago';  // Name of city
+$WUregion = 'mw';    // WeatherUnderground regional map group name
 // 'sw'=SouthWest, 'nw'=NorthWest, 'mw'=Midwest
 // 'sp'=South Central, 'ne'=North East, 'se'=South East
 $WUname1	= 'City Level';		// tooltip label for mode=1
@@ -94,13 +94,13 @@ $WUname5	= 'Entire US';		// tooltip label for mode=5
 $CityPos1  =  'left: 389px; top: -254px;';
 $CityColor1 = '#FFFFFF';  // color of legend display
 // see instructions above to set  $CityURL value
-$CityURL = 'https://radblast.wunderground.com/cgi-bin/radar/WUNIDS_map?station=MUX&brand=wui&num=1&delay=15&type=N0R&frame=0&scale=0.125&noclutter=0&t=1199816619&lat=37.27153397&lon=-122.02274323&label=Saratoga%2C+CA&showstorms=0&map.x=400&map.y=240&centerx=478&centery=335&transx=78&transy=95&showlabels=1&severe=0&rainsnow=0&lightning=0';
+$CityURL = 'https://radblast.wunderground.com/cgi-bin/radar/WUNIDS_map?station=LOT&brand=wui&num=1&delay=15&type=N0R&frame=0&scale=0.6358695652173914&noclutter=0&showstorms=0&mapx=400&mapy=240&centerx=338.3863247863249&centery=174.65299145299147&transx=-61.613675213675094&transy=-65.34700854700853&showlabels=1&severe=0&rainsnow=0&lightning=0&smooth=0&rand=25493710&lat=41.95999908&lon=-87.87999725&label=Chicago';
 
 // $CityPos2 - for Metro Level radar/animation	 
 $CityPos2  =  'left: 394px; top: -260px;';
 $CityColor2 = '#FFFFFF';  // color of legend display
 // see instructions above to set  $MetroURL value
-$MetroURL = 'https://radblast.wunderground.com/cgi-bin/radar/WUNIDS_map?station=MUX&brand=wui&num=1&delay=15&type=N0R&frame=0&scale=0.272&noclutter=0&t=1199816502&lat=37.27153397&lon=-122.02274323&label=Saratoga%2C+CA&showstorms=0&map.x=400&map.y=240&centerx=436&centery=276&transx=36&transy=36&showlabels=1&severe=0&rainsnow=0&lightning=0';
+$MetroURL = 'https://radblast.wunderground.com/cgi-bin/radar/WUNIDS_map?station=LOT&brand=wui&num=1&delay=15&type=N0R&frame=0&scale=0.6358695652173914&noclutter=0&showstorms=0&mapx=400&mapy=240&centerx=338.3863247863249&centery=174.65299145299147&transx=-61.613675213675094&transy=-65.34700854700853&showlabels=1&severe=0&rainsnow=0&lightning=0&smooth=0&rand=25493710&lat=41.95999908&lon=-87.87999725&label=Chicago';
 
 
 // $CityPos3 - for unzoomed radar/animation
