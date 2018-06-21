@@ -42,13 +42,13 @@ $SITE['ajaxScript']    = 'ajaxMBwx.js'; // for AJAX enabled display
 // to conds.php script on your weather website
 $SITE['realtimefile'] = './MBrealtime.txt';
 #
-$SITE['conditionsMETAR'] = 'KSJC';  // set to nearby METAR for current conditions icon/text
+$SITE['conditionsMETAR'] = 'KORD';  // set to nearby METAR for current conditions icon/text
 //  comment out conditionsMETAR if no nearby METAR.. conditions icon/text will not be displayed
 $SITE['overrideRain']   = true; // =true then rain rate will set rain words instead of METAR rain words
 #                               // =false - no change to METAR rain words (station rain rate not used)
-$SITE['DavisVP']  = true;  // set to false if not a Davis VP weather station
-$SITE['UV']       = true;  // set to false if no UV sensor
-$SITE['SOLAR']    = true;  // set to false if no Solar sensor
+$SITE['DavisVP']  = false;  // set to false if not a Davis VP weather station
+$SITE['UV']       = false;  // set to false if no UV sensor
+$SITE['SOLAR']    = false;  // set to false if no Solar sensor
 ##########################################################################
 # end of configurable settings
 #

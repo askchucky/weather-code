@@ -33,7 +33,7 @@
  be displayed in the menu, but will appear in the HTML source as an HTML comment.
 -->
 <menu>
-	<item caption="Home" link="wxindex.php" title="Home Page"/>
+	<item caption="Home" link="index.php" title="Home Page"/>
 	<item wxonly="VWS" caption="Mesonet" title="Local Weather Exchange Stations" link="wxmesonet.php"/>
 	<item caption="Radar">
 	    <item caption="Local Radar" link="wxradar.php" title="Radar"/>
@@ -68,10 +68,11 @@
 -->
 	</item>
     <item caption="Links" link="wxlinks.php"/>
-    <item caption="About" link="wxabout.php"/>
 	<item caption="Status" link="wxstatus.php" title="Status of weather software" />
 <!--  remove this and the finishing HTML comment line to enable the wxcontact.php form (if installed)
 	<item caption="Contact" link="wxcontact.php"/>
  -->
+ <!-->
     <item caption="Website Map" link="wxsitemap.php"/>
+-->
 </menu>

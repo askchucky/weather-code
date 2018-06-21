@@ -1,0 +1,7 @@
+Script characteristics on last page load:
+
+Last ran: Sat 7:37 pm
+
+nws-alerts.php - 1.12 - 27-July-2012 - NWS Public Alerts
+Cron job not used
+Total script process time: 0.0001 seconds

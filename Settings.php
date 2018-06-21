@@ -62,8 +62,8 @@ $SITE['charset']		= 'ISO-8859-1'; // default character set for webpages (iso-885
 #
 $SITE['lang'] = 'en';                // default language for website to use
 $SITE['allowLanguageSelect'] = false; // set to false to disable the use of language selector
-$SITE['useLanguageFlags'] = true;    // true=show flags, false=show language 2-char abbreviations
-$SITE['languageSelectDropdown'] = true; // true=show dropdown list for languages, false=show linear flags list
+$SITE['useLanguageFlags'] = false;    // true=show flags, false=show language 2-char abbreviations
+$SITE['languageSelectDropdown'] = false; // true=show dropdown list for languages, false=show linear flags list
 $SITE['languageSelectButton'] = false;  // true=show 'Set' button for language select, false=use onchange to submit
 $SITE['langavail'] = array('en',     // select languages to offer here.  Use comments to remove languages
 // array('en', should be first entry on line above
@@ -100,16 +100,16 @@ $SITE['monthNames'] = array(  // for wxastronomy page .. replace with month name
 # Sitewide configuration - Station location, identity and date/time info
 ############################################################################
 
-$SITE['organ']			= 'USA Website with PHP &amp; AJAX';
+$SITE['organ']			= 'River West Brewing';
 $SITE['copyr']			= '&copy; ' . gmdate("Y",time()) . ', Your Weather Website';
-$SITE['location']       = 'Somewhere, SomeState, USA';
-$SITE['email']			= 'mailto:somebody@somemail.org';
+$SITE['location']       = 'Chicago, Illinois, USA';
+$SITE['email']			= 'mailto:charlie@askchucky.com';
 # Station location: latitude, longitude, cityname
-$SITE['latitude']		= '37.27153397';    //North=positive, South=negative decimal degrees
-$SITE['longitude']		= '-122.02274323';  //East=positive, West=negative decimal degrees
-$SITE['cityname']		= 'Saratoga';
+$SITE['latitude']		= '41.89306';    //North=positive, South=negative decimal degrees
+$SITE['longitude']		= '-87.65010899999999';  //East=positive, West=negative decimal degrees
+$SITE['cityname']		= 'Chicago';
 
-$SITE['tz'] 			= 'America/Los_Angeles'; //NOTE: this *MUST* be set correctly to
+$SITE['tz'] 			= 'America/Chicago'; //NOTE: this *MUST* be set correctly to
 // translate UTC times to your LOCAL time for the displays.
 //  http://us.php.net/manual/en/timezones.php  has the list of timezone names
 //  pick the one that is closest to your location and put in $SITE['tz'] like:
@@ -174,15 +174,7 @@ $SITE['fcstorg']		= 'NWS';    // set to 'NWS' for NOAA NWS
 
 $SITE['NWSforecasts']   = array( // for the advforecast2.php V3.xx version script
 // use "Zone|Location|Point-printableURL",  as entries .. first one will be the default forecast.
-  "CAZ513|Saratoga|http://forecast.weather.gov/MapClick.php?CityName=Saratoga&state=CA&site=MTR&textField1=37.2639&textField2=-122.022&e=1&TextType=2",
-"CAZ513|Los Gatos|http://forecast.weather.gov/MapClick.php?CityName=Los+Gatos&state=CA&site=MTR&textField1=37.2267&textField2=-121.974&e=0&TextType=2",
-"CAZ513|Cupertino|http://forecast.weather.gov/MapClick.php?CityName=Cupertino&state=CA&site=MTR&textField1=37.3231&textField2=-122.031&e=0&TextType=2",
-"CAZ513|Sunnyvale|http://forecast.weather.gov/MapClick.php?CityName=Sunnyvale&state=CA&site=MTR&textField1=37.3689&textField2=-122.035&e=0&TextType=2",
-"CAZ513|Santa Clara|http://forecast.weather.gov/MapClick.php?CityName=Santa+Clara&state=CA&site=MTR&textField1=37.3542&textField2=-121.954&e=0&TextType=2",
-"CAZ513|San Jose|http://forecast.weather.gov/MapClick.php?CityName=San+Jose&state=CA&site=MTR&textField1=37.3394&textField2=-121.894&e=0&TextType=2",
-"CAZ508|Mountain View|http://forecast.weather.gov/MapClick.php?CityName=Mountain+View&state=CA&site=MTR&textField1=37.3861&textField2=-122.083&TextType=2",
-"CAZ529|Santa Cruz|http://forecast.weather.gov/MapClick.php?CityName=Santa+Cruz&state=CA&site=MTR&textField1=36.9742&textField2=-122.03&e=0&TextType=2",
-"CAZ006|San Francisco|http://forecast.weather.gov/MapClick.php?CityName=San+Francisco&state=CA&site=MTR&textField1=37.775&textField2=-122.418&e=0&TextType=2",
+"CAZ006|San Francisco|http://forecast.weather.gov/MapClick.php?CityName=San+Francisco&state=CA&site=MTR&textField1=37.775&textField2=-122.418&e=0&TextType=2"
 );
 
 // Uncomment the two lines below to use WXSIM as the ONLY forecast script to use
@@ -190,7 +182,7 @@ $SITE['NWSforecasts']   = array( // for the advforecast2.php V3.xx version scrip
 // $SITE['fcstorg']		= 'WXSIM';    // set to 'WXSIM' for WXSIM forecast
 
 // NOAA warning zone
-$SITE['noaazone'] 		= 'CAZ513'; // used for NOAA advisories and advforecast2.php zone forecasts
+$SITE['noaazone'] 		= 'ILZ014'; // used for NOAA advisories and advforecast2.php zone forecasts
 $SITE['hurlURL']		= "wxadvisory.php"; // page to launch for details on NOAA advisories
 // 
 
@@ -215,7 +207,7 @@ $SITE['NWSalertsSidebar'] = true; // =true to insert in menubar, =false no inser
 // Radar settings
 $SITE['noaaradar']		= 'MUX';   		// LAST 3 characters of NOAA Radar Site ID
 										// e.g. Radar KMUX has $SITE['noaaradar'] = 'MUX';
-$SITE['WUregion']	= 'sw';				// Wunderground regional maps
+$SITE['WUregion']	= 'mw';				// Wunderground regional maps
 // 'sw'=SouthWest, 'nw'=NorthWest, 'mw'=Midwest
 // 'sp'=South Central, 'ne'=North East, 'se'=South East
 
