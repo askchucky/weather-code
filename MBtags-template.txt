@@ -1,0 +1,502 @@
+wvar	th0temp-act	outdoor temperature most recent
+wvar	th0temp-val5	outdoor temperature value 5 minutes ago
+wvar	th0temp-val10	outdoor temperature value 10 minutes ago
+wvar	th0temp-val15	outdoor temperature value 15 minutes ago
+wvar	th0temp-val30	outdoor temperature value 30 minutes ago
+wvar	th0temp-val60	outdoor temperature value 60 minutes ago
+wvar	th0temp-hmin	outdoor temperature min of this hour
+wvar	th0temp-hmintime	outdoor temperature timestamp min of this hour
+wvar	th0temp-hmax	outdoor temperature max of this hour
+wvar	th0temp-hmaxtime	outdoor temperature timestamp max of this hour
+wvar	th0temp-dmin	outdoor temperature min of today
+wvar	th0temp-dmintime	outdoor temperature timestamp min of today
+wvar	th0temp-dmax	outdoor temperature max of today
+wvar	th0temp-dmaxtime	outdoor temperature timestamp max of today
+wvar	th0temp-ydmin	outdoor temperature min of yesterday
+wvar	th0temp-ydmintime	outdoor temperature timestamp min of yesterday
+wvar	th0temp-ydmax	outdoor temperature max of yesterday
+wvar	th0temp-ydmaxtime	outdoor temperature timestamp max of yesterday
+wvar	th0temp-mmin	outdoor temperature min of this month
+wvar	th0temp-mmintime	outdoor temperature timestamp min of this month
+wvar	th0temp-mmax	outdoor temperature max of this month
+wvar	th0temp-mmaxtime	outdoor temperature timestamp max of this month
+wvar	th0temp-ymin	outdoor temperature min of this year
+wvar	th0temp-ymintime	outdoor temperature timestamp min of this year
+wvar	th0temp-ymax	outdoor temperature max of this year
+wvar	th0temp-ymaxtime	outdoor temperature timestamp max of this year
+wvar	th0temp-amin	outdoor temperature min of all time
+wvar	th0temp-amintime	outdoor temperature timestamp min of all time
+wvar	th0temp-amax	outdoor temperature max of all time
+wvar	th0temp-amaxtime	outdoor temperature timestamp max of all time 
+wvar	th0temp-starttime	outdoor temperature timestamp of first recorded data
+wvar	th0hum-act	outdoor humidity most recent
+wvar	th0hum-val5	outdoor humidity value 5 minutes ago
+wvar	th0hum-val10	outdoor humidity value 10 minutes ago
+wvar	th0hum-val15	outdoor humidity value 15 minutes ago
+wvar	th0hum-val30	outdoor humidity value 30 minutes ago
+wvar	th0hum-val60	outdoor humidity value 60 minutes ago
+wvar	th0hum-hmin	outdoor humidity min of this hour
+wvar	th0hum-hmintime	outdoor humidity timestamp min of this hour
+wvar	th0hum-hmax	outdoor humidity max of this hour
+wvar	th0hum-hmaxtime	outdoor humidity timestamp max of this hour
+wvar	th0hum-dmin	outdoor humidity min of today
+wvar	th0hum-dmintime	outdoor humidity timestamp min of today
+wvar	th0hum-dmax	outdoor humidity max of today
+wvar	th0hum-dmaxtime	outdoor humidity timestamp max of today
+wvar	th0hum-ydmin	outdoor humidity min of yesterday
+wvar	th0hum-ydmintime	outdoor humidity timestamp min of yesterday
+wvar	th0hum-ydmax	outdoor humidity max of yesterday
+wvar	th0hum-ydmaxtime	outdoor humidity timestamp max of yesterday
+wvar	th0hum-mmin	outdoor humidity min of this month
+wvar	th0hum-mmintime	outdoor humidity timestamp min of this month
+wvar	th0hum-mmax	outdoor humidity max of this month
+wvar	th0hum-mmaxtime	outdoor humidity timestamp max of this month
+wvar	th0hum-ymin	outdoor humidity min of this year
+wvar	th0hum-ymintime	outdoor humidity timestamp min of this year
+wvar	th0hum-ymax	outdoor humidity max of this year
+wvar	th0hum-ymaxtime	outdoor humidity timestamp max of this year
+wvar	th0hum-amin	outdoor humidity min of all time
+wvar	th0hum-amintime	outdoor humidity timestamp min of all time
+wvar	th0hum-amax	outdoor humidity max of all time
+wvar	th0hum-amaxtime	outdoor humidity timestamp max of all time 
+wvar	th0hum-starttime	outdoor humidity timestamp of first recorded data
+wvar	th0dew-act	outdoor dewpoint most recent
+wvar	th0dew-val5	outdoor dewpoint value 5 minutes ago
+wvar	th0dew-val10	outdoor dewpoint value 10 minutes ago
+wvar	th0dew-val15	outdoor dewpoint value 15 minutes ago
+wvar	th0dew-val30	outdoor dewpoint value 30 minutes ago
+wvar	th0dew-val60	outdoor dewpoint value 60 minutes ago
+wvar	th0dew-hmin	outdoor dewpoint min of this hour
+wvar	th0dew-hmintime	outdoor dewpoint timestamp min of this hour
+wvar	th0dew-hmax	outdoor dewpoint max of this hour
+wvar	th0dew-hmaxtime	outdoor dewpoint timestamp max of this hour
+wvar	th0dew-dmin	outdoor dewpoint min of today
+wvar	th0dew-dmintime	outdoor dewpoint timestamp min of today
+wvar	th0dew-dmax	outdoor dewpoint max of today
+wvar	th0dew-dmaxtime	outdoor dewpoint timestamp max of today
+wvar	th0dew-ydmin	outdoor dewpoint min of yesterday
+wvar	th0dew-ydmintime	outdoor dewpoint timestamp min of yesterday
+wvar	th0dew-ydmax	outdoor dewpoint max of yesterday
+wvar	th0dew-ydmaxtime	outdoor dewpoint timestamp max of yesterday
+wvar	th0dew-mmin	outdoor dewpoint min of this month
+wvar	th0dew-mmintime	outdoor dewpoint timestamp min of this month
+wvar	th0dew-mmax	outdoor dewpoint max of this month
+wvar	th0dew-mmaxtime	outdoor dewpoint timestamp max of this month
+wvar	th0dew-ymin	outdoor dewpoint min of this year
+wvar	th0dew-ymintime	outdoor dewpoint timestamp min of this year
+wvar	th0dew-ymax	outdoor dewpoint max of this year
+wvar	th0dew-ymaxtime	outdoor dewpoint timestamp max of this year
+wvar	th0dew-amin	outdoor dewpoint min of all time
+wvar	th0dew-amintime	outdoor dewpoint timestamp min of all time
+wvar	th0dew-amax	outdoor dewpoint max of all time
+wvar	th0dew-amaxtime	outdoor dewpoint timestamp max of all time 
+wvar	th0dew-starttime	outdoor dewpoint timestamp of first recorded data
+wvar	thb0temp-act	indoor temperature most recent
+wvar	thb0temp-val5	indoor temperature value 5 minutes ago
+wvar	thb0temp-val10	indoor temperature value 10 minutes ago
+wvar	thb0temp-val15	indoor temperature value 15 minutes ago
+wvar	thb0temp-val30	indoor temperature value 30 minutes ago
+wvar	thb0temp-val60	indoor temperature value 60 minutes ago
+wvar	thb0temp-hmin	indoor temperature min of this hour
+wvar	thb0temp-hmintime	indoor temperature timestamp min of this hour
+wvar	thb0temp-hmax	indoor temperature max of this hour
+wvar	thb0temp-hmaxtime	indoor temperature timestamp max of this hour
+wvar	thb0temp-dmin	indoor temperature min of today
+wvar	thb0temp-dmintime	indoor temperature timestamp min of today
+wvar	thb0temp-dmax	indoor temperature max of today
+wvar	thb0temp-dmaxtime	indoor temperature timestamp max of today
+wvar	thb0temp-ydmin	indoor temperature min of yesterday
+wvar	thb0temp-ydmintime	indoor temperature timestamp min of yesterday
+wvar	thb0temp-ydmax	indoor temperature max of yesterday
+wvar	thb0temp-ydmaxtime	indoor temperature timestamp max of yesterday
+wvar	thb0temp-mmin	indoor temperature min of this month
+wvar	thb0temp-mmintime	indoor temperature timestamp min of this month
+wvar	thb0temp-mmax	indoor temperature max of this month
+wvar	thb0temp-mmaxtime	indoor temperature timestamp max of this month
+wvar	thb0temp-ymin	indoor temperature min of this year
+wvar	thb0temp-ymintime	indoor temperature timestamp min of this year
+wvar	thb0temp-ymax	indoor temperature max of this year
+wvar	thb0temp-ymaxtime	indoor temperature timestamp max of this year
+wvar	thb0temp-amin	indoor temperature min of all time
+wvar	thb0temp-amintime	indoor temperature timestamp min of all time
+wvar	thb0temp-amax	indoor temperature max of all time
+wvar	thb0temp-amaxtime	indoor temperature timestamp max of all time 
+wvar	thb0temp-starttime	indoor temperature timestamp of first recorded data
+wvar	thb0hum-act	indoor humidity most recent
+wvar	thb0hum-val5	indoor humidity value 5 minutes ago
+wvar	thb0hum-val10	indoor humidity value 10 minutes ago
+wvar	thb0hum-val15	indoor humidity value 15 minutes ago
+wvar	thb0hum-val30	indoor humidity value 30 minutes ago
+wvar	thb0hum-val60	indoor humidity value 60 minutes ago
+wvar	thb0hum-hmin	indoor humidity min of this hour
+wvar	thb0hum-hmintime	indoor humidity timestamp min of this hour
+wvar	thb0hum-hmax	indoor humidity max of this hour
+wvar	thb0hum-hmaxtime	indoor humidity timestamp max of this hour
+wvar	thb0hum-dmin	indoor humidity min of today
+wvar	thb0hum-dmintime	indoor humidity timestamp min of today
+wvar	thb0hum-dmax	indoor humidity max of today
+wvar	thb0hum-dmaxtime	indoor humidity timestamp max of today
+wvar	thb0hum-ydmin	indoor humidity min of yesterday
+wvar	thb0hum-ydmintime	indoor humidity timestamp min of yesterday
+wvar	thb0hum-ydmax	indoor humidity max of yesterday
+wvar	thb0hum-ydmaxtime	indoor humidity timestamp max of yesterday
+wvar	thb0hum-mmin	indoor humidity min of this month
+wvar	thb0hum-mmintime	indoor humidity timestamp min of this month
+wvar	thb0hum-mmax	indoor humidity max of this month
+wvar	thb0hum-mmaxtime	indoor humidity timestamp max of this month
+wvar	thb0hum-ymin	indoor humidity min of this year
+wvar	thb0hum-ymintime	indoor humidity timestamp min of this year
+wvar	thb0hum-ymax	indoor humidity max of this year
+wvar	thb0hum-ymaxtime	indoor humidity timestamp max of this year
+wvar	thb0hum-amin	indoor humidity min of all time
+wvar	thb0hum-amintime	indoor humidity timestamp min of all time
+wvar	thb0hum-amax	indoor humidity max of all time
+wvar	thb0hum-amaxtime	indoor humidity timestamp max of all time 
+wvar	thb0hum-starttime	indoor humidity timestamp of first recorded data
+wvar	thb0dew-act	indoor dewpoint most recent
+wvar	thb0dew-val5	indoor dewpoint value 5 minutes ago
+wvar	thb0dew-val10	indoor dewpoint value 10 minutes ago
+wvar	thb0dew-val15	indoor dewpoint value 15 minutes ago
+wvar	thb0dew-val30	indoor dewpoint value 30 minutes ago
+wvar	thb0dew-val60	indoor dewpoint value 60 minutes ago
+wvar	thb0dew-hmin	indoor dewpoint min of this hour
+wvar	thb0dew-hmintime	indoor dewpoint timestamp min of this hour
+wvar	thb0dew-hmax	indoor dewpoint max of this hour
+wvar	thb0dew-hmaxtime	indoor dewpoint timestamp max of this hour
+wvar	thb0dew-dmin	indoor dewpoint min of today
+wvar	thb0dew-dmintime	indoor dewpoint timestamp min of today
+wvar	thb0dew-dmax	indoor dewpoint max of today
+wvar	thb0dew-dmaxtime	indoor dewpoint timestamp max of today
+wvar	thb0dew-ydmin	indoor dewpoint min of yesterday
+wvar	thb0dew-ydmintime	indoor dewpoint timestamp min of yesterday
+wvar	thb0dew-ydmax	indoor dewpoint max of yesterday
+wvar	thb0dew-ydmaxtime	indoor dewpoint timestamp max of yesterday
+wvar	thb0dew-mmin	indoor dewpoint min of this month
+wvar	thb0dew-mmintime	indoor dewpoint timestamp min of this month
+wvar	thb0dew-mmax	indoor dewpoint max of this month
+wvar	thb0dew-mmaxtime	indoor dewpoint timestamp max of this month
+wvar	thb0dew-ymin	indoor dewpoint min of this year
+wvar	thb0dew-ymintime	indoor dewpoint timestamp min of this year
+wvar	thb0dew-ymax	indoor dewpoint max of this year
+wvar	thb0dew-ymaxtime	indoor dewpoint timestamp max of this year
+wvar	thb0dew-amin	indoor dewpoint min of all time
+wvar	thb0dew-amintime	indoor dewpoint timestamp min of all time
+wvar	thb0dew-amax	indoor dewpoint max of all time
+wvar	thb0dew-amaxtime	indoor dewpoint timestamp max of all time 
+wvar	thb0dew-starttime	indoor dewpoint timestamp of first recorded data
+wvar	thb0press-act	station pressure most recent
+wvar	thb0press-val5	station pressure value 5 minutes ago
+wvar	thb0press-val10	station pressure value 10 minutes ago
+wvar	thb0press-val15	station pressure value 15 minutes ago
+wvar	thb0press-val30	station pressure value 30 minutes ago
+wvar	thb0press-val60	station pressure value 60 minutes ago
+wvar	thb0press-hmin	station pressure min of this hour
+wvar	thb0press-hmintime	station pressure timestamp min of this hour
+wvar	thb0press-hmax	station pressure max of this hour
+wvar	thb0press-hmaxtime	station pressure timestamp max of this hour
+wvar	thb0press-dmin	station pressure min of today
+wvar	thb0press-dmintime	station pressure timestamp min of today
+wvar	thb0press-dmax	station pressure max of today
+wvar	thb0press-dmaxtime	station pressure timestamp max of today
+wvar	thb0press-ydmin	station pressure min of yesterday
+wvar	thb0press-ydmintime	station pressure timestamp min of yesterday
+wvar	thb0press-ydmax	station pressure max of yesterday
+wvar	thb0press-ydmaxtime	station pressure timestamp max of yesterday
+wvar	thb0press-mmin	station pressure min of this month
+wvar	thb0press-mmintime	station pressure timestamp min of this month
+wvar	thb0press-mmax	station pressure max of this month
+wvar	thb0press-mmaxtime	station pressure timestamp max of this month
+wvar	thb0press-ymin	station pressure min of this year
+wvar	thb0press-ymintime	station pressure timestamp min of this year
+wvar	thb0press-ymax	station pressure max of this year
+wvar	thb0press-ymaxtime	station pressure timestamp max of this year
+wvar	thb0press-amin	station pressure min of all time
+wvar	thb0press-amintime	station pressure timestamp min of all time
+wvar	thb0press-amax	station pressure max of all time
+wvar	thb0press-amaxtime	station pressure timestamp max of all time 
+wvar	thb0press-starttime	station pressure timestamp of first recorded data
+wvar	thb0seapress-act	sealevel pressure most recent
+wvar	thb0seapress-val5	sealevel pressure value 5 minutes ago
+wvar	thb0seapress-val10	sealevel pressure value 10 minutes ago
+wvar	thb0seapress-val15	sealevel pressure value 15 minutes ago
+wvar	thb0seapress-val30	sealevel pressure value 30 minutes ago
+wvar	thb0seapress-val60	sealevel pressure value 60 minutes ago
+wvar	thb0seapress-hmin	sealevel pressure min of this hour
+wvar	thb0seapress-hmintime	sealevel pressure timestamp min of this hour
+wvar	thb0seapress-hmax	sealevel pressure max of this hour
+wvar	thb0seapress-hmaxtime	sealevel pressure timestamp max of this hour
+wvar	thb0seapress-dmin	sealevel pressure min of today
+wvar	thb0seapress-dmintime	sealevel pressure timestamp min of today
+wvar	thb0seapress-dmax	sealevel pressure max of today
+wvar	thb0seapress-dmaxtime	sealevel pressure timestamp max of today
+wvar	thb0seapress-ydmin	sealevel pressure min of yesterday
+wvar	thb0seapress-ydmintime	sealevel pressure timestamp min of yesterday
+wvar	thb0seapress-ydmax	sealevel pressure max of yesterday
+wvar	thb0seapress-ydmaxtime	sealevel pressure timestamp max of yesterday
+wvar	thb0seapress-mmin	sealevel pressure min of this month
+wvar	thb0seapress-mmintime	sealevel pressure timestamp min of this month
+wvar	thb0seapress-mmax	sealevel pressure max of this month
+wvar	thb0seapress-mmaxtime	sealevel pressure timestamp max of this month
+wvar	thb0seapress-ymin	sealevel pressure min of this year
+wvar	thb0seapress-ymintime	sealevel pressure timestamp min of this year
+wvar	thb0seapress-ymax	sealevel pressure max of this year
+wvar	thb0seapress-ymaxtime	sealevel pressure timestamp max of this year
+wvar	thb0seapress-amin	sealevel pressure min of all time
+wvar	thb0seapress-amintime	sealevel pressure timestamp min of all time
+wvar	thb0seapress-amax	sealevel pressure max of all time
+wvar	thb0seapress-amaxtime	sealevel pressure timestamp max of all time 
+wvar	thb0seapress-starttime	sealevel pressure timestamp of first recorded data
+wvar	wind0wind-act	windspeed most recent
+wvar	wind0wind-val5	windspeed value 5 minutes ago
+wvar	wind0wind-val10	windspeed value 10 minutes ago
+wvar	wind0wind-val15	windspeed value 15 minutes ago
+wvar	wind0wind-val30	windspeed value 30 minutes ago
+wvar	wind0wind-val60	windspeed value 60 minutes ago
+wvar	wind0wind-hmin	windspeed min of this hour
+wvar	wind0wind-hmintime	windspeed timestamp min of this hour
+wvar	wind0wind-hmax	windspeed max of this hour
+wvar	wind0wind-hmaxtime	windspeed timestamp max of this hour
+wvar	wind0wind-dmin	windspeed min of today
+wvar	wind0wind-dmintime	windspeed timestamp min of today
+wvar	wind0wind-dmax	windspeed max of today
+wvar	wind0wind-dmaxtime	windspeed timestamp max of today
+wvar	wind0wind-ydmin	windspeed min of yesterday
+wvar	wind0wind-ydmintime	windspeed timestamp min of yesterday
+wvar	wind0wind-ydmax	windspeed max of yesterday
+wvar	wind0wind-ydmaxtime	windspeed timestamp max of yesterday
+wvar	wind0wind-mmin	windspeed min of this month
+wvar	wind0wind-mmintime	windspeed timestamp min of this month
+wvar	wind0wind-mmax	windspeed max of this month
+wvar	wind0wind-mmaxtime	windspeed timestamp max of this month
+wvar	wind0wind-ymin	windspeed min of this year
+wvar	wind0wind-ymintime	windspeed timestamp min of this year
+wvar	wind0wind-ymax	windspeed max of this year
+wvar	wind0wind-ymaxtime	windspeed timestamp max of this year
+wvar	wind0wind-amin	windspeed min of all time
+wvar	wind0wind-amintime	windspeed timestamp min of all time
+wvar	wind0wind-amax	windspeed max of all time
+wvar	wind0wind-amaxtime	windspeed timestamp max of all time 
+wvar	wind0wind-starttime	windspeed timestamp of first recorded data
+wvar	wind0avgwind-act	average windspeed most recent
+wvar	wind0avgwind-val5	average windspeed value 5 minutes ago
+wvar	wind0avgwind-val10	average windspeed value 10 minutes ago
+wvar	wind0avgwind-val15	average windspeed value 15 minutes ago
+wvar	wind0avgwind-val30	average windspeed value 30 minutes ago
+wvar	wind0avgwind-val60	average windspeed value 60 minutes ago
+wvar	wind0avgwind-hmin	average windspeed min of this hour
+wvar	wind0avgwind-hmintime	average windspeed timestamp min of this hour
+wvar	wind0avgwind-hmax	average windspeed max of this hour
+wvar	wind0avgwind-hmaxtime	average windspeed timestamp max of this hour
+wvar	wind0avgwind-dmin	average windspeed min of today
+wvar	wind0avgwind-dmintime	average windspeed timestamp min of today
+wvar	wind0avgwind-dmax	average windspeed max of today
+wvar	wind0avgwind-dmaxtime	average windspeed timestamp max of today
+wvar	wind0avgwind-ydmin	average windspeed min of yesterday
+wvar	wind0avgwind-ydmintime	average windspeed timestamp min of yesterday
+wvar	wind0avgwind-ydmax	average windspeed max of yesterday
+wvar	wind0avgwind-ydmaxtime	average windspeed timestamp max of yesterday
+wvar	wind0avgwind-mmin	average windspeed min of this month
+wvar	wind0avgwind-mmintime	average windspeed timestamp min of this month
+wvar	wind0avgwind-mmax	average windspeed max of this month
+wvar	wind0avgwind-mmaxtime	average windspeed timestamp max of this month
+wvar	wind0avgwind-ymin	average windspeed min of this year
+wvar	wind0avgwind-ymintime	average windspeed timestamp min of this year
+wvar	wind0avgwind-ymax	average windspeed max of this year
+wvar	wind0avgwind-ymaxtime	average windspeed timestamp max of this year
+wvar	wind0avgwind-amin	average windspeed min of all time
+wvar	wind0avgwind-amintime	average windspeed timestamp min of all time
+wvar	wind0avgwind-amax	average windspeed max of all time
+wvar	wind0avgwind-amaxtime	average windspeed timestamp max of all time 
+wvar	wind0avgwind-starttime	average windspeed timestamp of first recorded data
+wvar	wind0dir-act	wind direction most recent
+wvar	wind0dir-val5	wind direction value 5 minutes ago
+wvar	wind0dir-val10	wind direction value 10 minutes ago
+wvar	wind0dir-val15	wind direction value 15 minutes ago
+wvar	wind0dir-val30	wind direction value 30 minutes ago
+wvar	wind0dir-val60	wind direction value 60 minutes ago
+wvar	wind0dir-hmin	wind direction min of this hour
+wvar	wind0dir-hmintime	wind direction timestamp min of this hour
+wvar	wind0dir-hmax	wind direction max of this hour
+wvar	wind0dir-hmaxtime	wind direction timestamp max of this hour
+wvar	wind0dir-dmin	wind direction min of today
+wvar	wind0dir-dmintime	wind direction timestamp min of today
+wvar	wind0dir-dmax	wind direction max of today
+wvar	wind0dir-dmaxtime	wind direction timestamp max of today
+wvar	wind0dir-ydmin	wind direction min of yesterday
+wvar	wind0dir-ydmintime	wind direction timestamp min of yesterday
+wvar	wind0dir-ydmax	wind direction max of yesterday
+wvar	wind0dir-ydmaxtime	wind direction timestamp max of yesterday
+wvar	wind0dir-mmin	wind direction min of this month
+wvar	wind0dir-mmintime	wind direction timestamp min of this month
+wvar	wind0dir-mmax	wind direction max of this month
+wvar	wind0dir-mmaxtime	wind direction timestamp max of this month
+wvar	wind0dir-ymin	wind direction min of this year
+wvar	wind0dir-ymintime	wind direction timestamp min of this year
+wvar	wind0dir-ymax	wind direction max of this year
+wvar	wind0dir-ymaxtime	wind direction timestamp max of this year
+wvar	wind0dir-amin	wind direction min of all time
+wvar	wind0dir-amintime	wind direction timestamp min of all time
+wvar	wind0dir-amax	wind direction max of all time
+wvar	wind0dir-amaxtime	wind direction timestamp max of all time 
+wvar	wind0dir-starttime	wind direction timestamp of first recorded data
+wvar	wind0chill-act	outdoor wind chill temperature most recent
+wvar	wind0chill-val5	outdoor wind chill temperature value 5 minutes ago
+wvar	wind0chill-val10	outdoor wind chill temperature value 10 minutes ago
+wvar	wind0chill-val15	outdoor wind chill temperature value 15 minutes ago
+wvar	wind0chill-val30	outdoor wind chill temperature value 30 minutes ago
+wvar	wind0chill-val60	outdoor wind chill temperature value 60 minutes ago
+wvar	wind0chill-hmin	outdoor wind chill temperature min of this hour
+wvar	wind0chill-hmintime	outdoor wind chill temperature timestamp min of this hour
+wvar	wind0chill-hmax	outdoor wind chill temperature max of this hour
+wvar	wind0chill-hmaxtime	outdoor wind chill temperature timestamp max of this hour
+wvar	wind0chill-dmin	outdoor wind chill temperature min of today
+wvar	wind0chill-dmintime	outdoor wind chill temperature timestamp min of today
+wvar	wind0chill-dmax	outdoor wind chill temperature max of today
+wvar	wind0chill-dmaxtime	outdoor wind chill temperature timestamp max of today
+wvar	wind0chill-ydmin	outdoor wind chill temperature min of yesterday
+wvar	wind0chill-ydmintime	outdoor wind chill temperature timestamp min of yesterday
+wvar	wind0chill-ydmax	outdoor wind chill temperature max of yesterday
+wvar	wind0chill-ydmaxtime	outdoor wind chill temperature timestamp max of yesterday
+wvar	wind0chill-mmin	outdoor wind chill temperature min of this month
+wvar	wind0chill-mmintime	outdoor wind chill temperature timestamp min of this month
+wvar	wind0chill-mmax	outdoor wind chill temperature max of this month
+wvar	wind0chill-mmaxtime	outdoor wind chill temperature timestamp max of this month
+wvar	wind0chill-ymin	outdoor wind chill temperature min of this year
+wvar	wind0chill-ymintime	outdoor wind chill temperature timestamp min of this year
+wvar	wind0chill-ymax	outdoor wind chill temperature max of this year
+wvar	wind0chill-ymaxtime	outdoor wind chill temperature timestamp max of this year
+wvar	wind0chill-amin	outdoor wind chill temperature min of all time
+wvar	wind0chill-amintime	outdoor wind chill temperature timestamp min of all time
+wvar	wind0chill-amax	outdoor wind chill temperature max of all time
+wvar	wind0chill-amaxtime	outdoor wind chill temperature timestamp max of all time 
+wvar	wind0chill-starttime	outdoor wind chill temperature timestamp of first recorded data
+wvar	rain0rate-act	rain rate most recent
+wvar	rain0rate-val5	rain rate value 5 minutes ago
+wvar	rain0rate-val10	rain rate value 10 minutes ago
+wvar	rain0rate-val15	rain rate value 15 minutes ago
+wvar	rain0rate-val30	rain rate value 30 minutes ago
+wvar	rain0rate-val60	rain rate value 60 minutes ago
+wvar	rain0rate-hmin	rain rate min of this hour
+wvar	rain0rate-hmintime	rain rate timestamp min of this hour
+wvar	rain0rate-hmax	rain rate max of this hour
+wvar	rain0rate-hmaxtime	rain rate timestamp max of this hour
+wvar	rain0rate-dmin	rain rate min of today
+wvar	rain0rate-dmintime	rain rate timestamp min of today
+wvar	rain0rate-dmax	rain rate max of today
+wvar	rain0rate-dmaxtime	rain rate timestamp max of today
+wvar	rain0rate-ydmin	rain rate min of yesterday
+wvar	rain0rate-ydmintime	rain rate timestamp min of yesterday
+wvar	rain0rate-ydmax	rain rate max of yesterday
+wvar	rain0rate-ydmaxtime	rain rate timestamp max of yesterday
+wvar	rain0rate-mmin	rain rate min of this month
+wvar	rain0rate-mmintime	rain rate timestamp min of this month
+wvar	rain0rate-mmax	rain rate max of this month
+wvar	rain0rate-mmaxtime	rain rate timestamp max of this month
+wvar	rain0rate-ymin	rain rate min of this year
+wvar	rain0rate-ymintime	rain rate timestamp min of this year
+wvar	rain0rate-ymax	rain rate max of this year
+wvar	rain0rate-ymaxtime	rain rate timestamp max of this year
+wvar	rain0rate-amin	rain rate min of all time
+wvar	rain0rate-amintime	rain rate timestamp min of all time
+wvar	rain0rate-amax	rain rate max of all time
+wvar	rain0rate-amaxtime	rain rate timestamp max of all time 
+wvar	rain0rate-starttime	rain rate timestamp of first recorded data
+wvar	rain0total-act	rain most recent
+wvar	rain0total-val5	rain value 5 minutes ago
+wvar	rain0total-val10	rain value 10 minutes ago
+wvar	rain0total-val15	rain value 15 minutes ago
+wvar	rain0total-val30	rain value 30 minutes ago
+wvar	rain0total-val60	rain value 60 minutes ago
+wvar	rain0total-hmin	rain min of this hour
+wvar	rain0total-hmintime	rain timestamp min of this hour
+wvar	rain0total-hmax	rain max of this hour
+wvar	rain0total-hmaxtime	rain timestamp max of this hour
+wvar	rain0total-dmin	rain min of today
+wvar	rain0total-dmintime	rain timestamp min of today
+wvar	rain0total-dmax	rain max of today
+wvar	rain0total-dmaxtime	rain timestamp max of today
+wvar	rain0total-ydmin	rain min of yesterday
+wvar	rain0total-ydmintime	rain timestamp min of yesterday
+wvar	rain0total-ydmax	rain max of yesterday
+wvar	rain0total-ydmaxtime	rain timestamp max of yesterday
+wvar	rain0total-mmin	rain min of this month
+wvar	rain0total-mmintime	rain timestamp min of this month
+wvar	rain0total-mmax	rain max of this month
+wvar	rain0total-mmaxtime	rain timestamp max of this month
+wvar	rain0total-ymin	rain min of this year
+wvar	rain0total-ymintime	rain timestamp min of this year
+wvar	rain0total-ymax	rain max of this year
+wvar	rain0total-ymaxtime	rain timestamp max of this year
+wvar	rain0total-amin	rain min of all time
+wvar	rain0total-amintime	rain timestamp min of all time
+wvar	rain0total-amax	rain max of all time
+wvar	rain0total-amaxtime	rain timestamp max of all time 
+wvar	rain0total-starttime	rain timestamp of first recorded data
+wvar	uv0index-act	uv index most recent
+wvar	uv0index-val5	uv index value 5 minutes ago
+wvar	uv0index-val10	uv index value 10 minutes ago
+wvar	uv0index-val15	uv index value 15 minutes ago
+wvar	uv0index-val30	uv index value 30 minutes ago
+wvar	uv0index-val60	uv index value 60 minutes ago
+wvar	uv0index-hmin	uv index min of this hour
+wvar	uv0index-hmintime	uv index timestamp min of this hour
+wvar	uv0index-hmax	uv index max of this hour
+wvar	uv0index-hmaxtime	uv index timestamp max of this hour
+wvar	uv0index-dmin	uv index min of today
+wvar	uv0index-dmintime	uv index timestamp min of today
+wvar	uv0index-dmax	uv index max of today
+wvar	uv0index-dmaxtime	uv index timestamp max of today
+wvar	uv0index-ydmin	uv index min of yesterday
+wvar	uv0index-ydmintime	uv index timestamp min of yesterday
+wvar	uv0index-ydmax	uv index max of yesterday
+wvar	uv0index-ydmaxtime	uv index timestamp max of yesterday
+wvar	uv0index-mmin	uv index min of this month
+wvar	uv0index-mmintime	uv index timestamp min of this month
+wvar	uv0index-mmax	uv index max of this month
+wvar	uv0index-mmaxtime	uv index timestamp max of this month
+wvar	uv0index-ymin	uv index min of this year
+wvar	uv0index-ymintime	uv index timestamp min of this year
+wvar	uv0index-ymax	uv index max of this year
+wvar	uv0index-ymaxtime	uv index timestamp max of this year
+wvar	uv0index-amin	uv index min of all time
+wvar	uv0index-amintime	uv index timestamp min of all time
+wvar	uv0index-amax	uv index max of all time
+wvar	uv0index-amaxtime	uv index timestamp max of all time 
+wvar	uv0index-starttime	uv index timestamp of first recorded data
+wvar	sol0rad-act	solar rad most recent
+wvar	sol0rad-val5	solar rad value 5 minutes ago
+wvar	sol0rad-val10	solar rad value 10 minutes ago
+wvar	sol0rad-val15	solar rad value 15 minutes ago
+wvar	sol0rad-val30	solar rad value 30 minutes ago
+wvar	sol0rad-val60	solar rad value 60 minutes ago
+wvar	sol0rad-hmin	solar rad min of this hour
+wvar	sol0rad-hmintime	solar rad timestamp min of this hour
+wvar	sol0rad-hmax	solar rad max of this hour
+wvar	sol0rad-hmaxtime	solar rad timestamp max of this hour
+wvar	sol0rad-dmin	solar rad min of today
+wvar	sol0rad-dmintime	solar rad timestamp min of today
+wvar	sol0rad-dmax	solar rad max of today
+wvar	sol0rad-dmaxtime	solar rad timestamp max of today
+wvar	sol0rad-ydmin	solar rad min of yesterday
+wvar	sol0rad-ydmintime	solar rad timestamp min of yesterday
+wvar	sol0rad-ydmax	solar rad max of yesterday
+wvar	sol0rad-ydmaxtime	solar rad timestamp max of yesterday
+wvar	sol0rad-mmin	solar rad min of this month
+wvar	sol0rad-mmintime	solar rad timestamp min of this month
+wvar	sol0rad-mmax	solar rad max of this month
+wvar	sol0rad-mmaxtime	solar rad timestamp max of this month
+wvar	sol0rad-ymin	solar rad min of this year
+wvar	sol0rad-ymintime	solar rad timestamp min of this year
+wvar	sol0rad-ymax	solar rad max of this year
+wvar	sol0rad-ymaxtime	solar rad timestamp max of this year
+wvar	sol0rad-amin	solar rad min of all time
+wvar	sol0rad-amintime	solar rad timestamp min of all time
+wvar	sol0rad-amax	solar rad max of all time
+wvar	sol0rad-amaxtime	solar rad timestamp max of all time 
+wvar	sol0rad-starttime	solar rad timestamp of first recorded data
+wvar	rain0total-daysum	rain total today
+wvar	rain0total-monthsum	rain total this month
+wvar	rain0total-yearsum	rain total this year
+wvar	rain0total-ydaysum	rain total yesterday
+wvar	rain0total-sum60	rain total last 60 minutes
+
