@@ -44,7 +44,7 @@ $SITE['CSSprint']		= 'weather-print-php.css';
 #$SITE['CSSprint']		= 'weather-print.css';
 
 # Mike Challis' Theme Switch configuration
-$SITE['allowThemeSwitch']   = true;  // set to false to disable the use of Theme Switcher 
+$SITE['allowThemeSwitch']   = false;  // set to false to disable the use of Theme Switcher 
 $SITE['CSSscreenDefault'] = 'weather-screen-blue.css'; // leave -narrow or -wide off this .. just change color here
 $SITE['CSSwideOrNarrowDefault'] = 'narrow'; // 'narrow' or 'wide'
 # CSSsettings_mode
