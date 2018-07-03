@@ -30,6 +30,8 @@
 //Version 1.01 - 28-Jul-2012 - added support for nws-alerts scripts
 $SITE 			= array();
 
+$doIncludeNWS = true;
+include("advforecast2.php");
 ############################################################################
 # Sitewide configuration - website style and features
 ############################################################################
