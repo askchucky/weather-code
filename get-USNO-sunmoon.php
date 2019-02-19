@@ -66,8 +66,9 @@ function getUSNOsunmoon()
 	//  Version 2.04 - 11-Nov-2015 - use specific local date request instead of relying on date=today
 	//  Version 3.00 - 11-Oct-2017 - use cURL for fetch, provide bypass/calculations for api.usno.navy.mil outages
 	//  Version 3.01 - 20-Oct-2017 - fix date format for calculated date functions
+	//  Version 3.02 - 23-Nov-2018 - change USNO access to https
 
-  $Version = 'get-USNO-sunmoon.php - Version 3.01 - 20-Oct-2017';
+  $Version = 'get-USNO-sunmoon.php - Version 3.02 - 23-Nov-2018';
 
   // -----------local settings-------------------
 
@@ -135,7 +136,7 @@ function getUSNOsunmoon()
 
   $myTZOffset = date('Z') / 3600; // difference of our time from UTC in hours
   $lclToday = date("m/d/Y");
-  $USNOUrl = "http://api.usno.navy.mil/rstt/oneday?date=$lclToday&coords=$myLat,$myLong&tz=$myTZOffset";
+  $USNOUrl = "https://api.usno.navy.mil/rstt/oneday?date=$lclToday&coords=$myLat,$myLong&tz=$myTZOffset";
   $cacheName = $cacheFileDir . $cacheName;
   if ($useUSNO) { // do the USNO fetch/process
 
